@@ -1,0 +1,143 @@
+body {
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: monospace;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 10%;
+}
+
+.home-background {
+    background-image: url(https://usatsneakhype.files.wordpress.com/2015/03/awesome-trippy-gifs-3.gif);
+}
+
+.rules-background {
+    background-image: url(https://usatsneakhype.files.wordpress.com/2015/03/awesome-trippy-gifs-3.gif);
+    padding: 25%;
+}
+
+.quiz-background {
+    background-image: url(https://cdn.dribbble.com/users/103573/screenshots/1674824/compass-d.gif);
+    padding: 19%;
+ }
+
+header {
+    font-size: 6em;
+    color: lavenderblush;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+    text-align: center;
+}
+
+.is-hide {
+    visibility: hidden;
+}
+
+button {
+    cursor: pointer;
+    width: max-content;
+    font-size: 4em;
+    font-family: monospace;
+    margin: 1%;
+    padding: 1%;
+    background: white;
+}
+
+button:hover {
+    color: red;
+}
+
+input {
+    font-size: 1.5em;
+    padding: 1%;
+    margin: 2%;
+    text-align: center;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    transition: 0.5s;
+    overflow-y: scroll;
+    font-size: 1.8em;
+    color: white;
+    text-align: left;
+}
+
+.overlay-content {
+    position: relative;
+    top: 8%;
+    width: 100%;
+}
+
+.overlay-content > ul {
+    display: grid;
+}
+
+.overlay .close-button {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 30px;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.open-overlay {
+    height: 100%;
+}
+
+.error-message {
+    color: darkorange;
+    font-size: 2.5em;
+}
+
+header {
+    font-size: 3.5em;
+}
+
+.alternatives-button {
+    font-size: 2em;
+    width: 40%;
+}
+
+.timer {
+    color: dodgerblue;
+    font-size: 5em;
+    margin-top: -10%;
+}
+
+.score {
+    font-size: 2em;
+    color: gold;
+}
+
+ol {
+    display: inline-table;
+    font-size: 2em;
+}
+
+.quiz-over-header {
+    font-size: 6em;
+}
+
+.high-score {
+    color: mediumseagreen;
+}
+
+.high-score > h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
