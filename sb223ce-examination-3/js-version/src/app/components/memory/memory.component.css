@@ -1,0 +1,12 @@
+.hide {
+    visibility: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.twoByTwo {
+    margin-right: 50px;
+    margin-left: 50px;
+}

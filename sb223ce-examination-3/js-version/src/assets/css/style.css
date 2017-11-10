@@ -1,0 +1,17 @@
+body {
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ui.menu { 
+    background: transparent; 
+}
+
+.ui.card { 
+    position: absolute;
+}
+
+#header { 
+    background: ghostwhite; 
+}

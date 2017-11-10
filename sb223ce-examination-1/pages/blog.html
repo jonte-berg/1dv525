@@ -1,0 +1,21 @@
+--- 
+layout: default
+title: Blog
+---
+
+<!-- 
+    I found that, this section automatically adds twp <p> tags and I could not figure out why. After discussing with Leitet, he told me to simply add a comment about it that I found the problem but could not find the reason of it.
+-->
+
+<section>
+    {% for post in site.posts %}
+    <article>
+        <header>
+            <h3>{{ post.title }}</h3>
+            <p>Posted by <em>{{post.author}}</em> on {{post.date}}</p>
+        </header>
+        <p>{{post.content}}</p>
+    </article>
+    <hr>
+    {% endfor %}
+</section>

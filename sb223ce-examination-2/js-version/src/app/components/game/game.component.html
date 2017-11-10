@@ -1,0 +1,25 @@
+<template>
+    <section id="game-component">
+        <link rel="stylesheet" href="app/components/game/game.component.css">
+        <section id="game-over" class="is-hide">
+            <header id="game-over-header">Game Over</header>
+            <h1 id="score"></h1>
+            <button id="restart-btn">Restart</button>
+        </section>
+        <section id="high-score" class="is-hide">
+            <h1>Top 5 High-scores</h1>
+            <ol>
+                <li>--</li><li>--</li><li>--</li><li>--</li><li>--</li>
+            </ol>
+        </section>
+        <section id="game">
+            <h1 class="timer">20</h1>
+            <header class="question"></header>
+            <input class="answer-input" type="text" placeholder="Your answer">
+            <section class="alternatives is-hide">
+                <button id="alt1"></button><button id="alt2"></button><br />
+                <button id="alt3"></button><button id="alt4"></button>
+            </section>
+        </section>
+    </section>
+</template>

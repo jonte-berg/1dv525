@@ -1,0 +1,1 @@
+This repository contains the first practical assignment of 1dv525. The idea of this practical assignment is to create a web site containing a couple of web pages.

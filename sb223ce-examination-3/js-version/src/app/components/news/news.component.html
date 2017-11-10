@@ -1,0 +1,51 @@
+<template id="app">
+    <div id="news-app" draggable='true' class='ui card'>
+        <div id='header' class='content'>
+            <i aria-hidden="true" class='circular newspaper icon'></i>News
+            <i id='news-close' aria-hidden="true" class='right floated circular close icon link'></i>
+            <i id='news-settings' aria-hidden="true" class='right floated circular setting icon link'></i>
+            <i id='news-refresh' aria-hidden="true" class='right floated circular refresh icon link'></i>
+        </div>
+        <div id="news-settingsDiv" class="content ui dimmer news-content-area">
+            <div id="news-channels" class="ui middle aligned divided list"></div>
+            <div id='news-doneBtn' class='ui bottom attached button'>Done</div>
+        </div>
+        <div id="news-newsDiv" class="content ui link cards news-content-area"></div>
+        <div id="news-loader" class="ui inverted dimmer">
+            <div class="ui text loader">Loading</div>
+        </div>
+        <div id="news-extraContent" class="ui dimmer extra content">
+            <div class="ui icon message">
+                <div class="content">Unable to fetch, please try again.</div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template id="news">
+    <div class="card">
+        <div class="ui image">
+            <img src="">
+        </div>
+        <div class="content">
+            <div class="header"></div>
+            <div class="meta">
+                <span class="author"></span>
+                <span class="date right floated"></span>
+            </div>
+            <div class="description"></div>
+        </div>
+    </div>
+</template>
+
+<template id="channel">
+    <div class="item">
+        <div class="right floated content">
+            <div class="ui slider checkbox">
+                <input type="checkbox" name="">
+                <label>Subscribe</label>
+            </div>
+        </div>
+        <img class="image" height="90" width="90" src="">
+    </div>
+</template>

@@ -1,0 +1,50 @@
+<template id="app">
+    <div draggable='true' id='memory-app' class='ui card'>
+        <div id='header' class='content'>
+            <i aria-hidden="true" class='circular delicious icon'></i>Memory
+            <i id='memory-close' aria-hidden="true" class='right floated circular close icon link'></i>
+            <i id='memory-settings' aria-hidden="true" class='right floated circular setting icon link'></i>
+            <i id='memory-restart' aria-hidden="true" class='right floated circular refresh icon link'></i>
+        </div>
+        <div id='memory-content' class='content center'>
+            <div id="memory-message" class="ui dimmer">
+                <h1 class="header">You Won!!</h1>
+            </div>
+            <div id="memory-images"></div>
+            <div id="memory-settingsDiv" class="ui dimmer">
+                <div class="ui form">
+                    <div id="memory-size" class="grouped fields">
+                        <label>Matrix size</label>
+                    </div>
+                    <div id="memory-timer" class="grouped fields">
+                        <label>Play against time</label>
+                    </div>
+                </div>
+                <br />
+                <div id='memory-doneBtn' class='ui bottom attached button'>Done</div>
+            </div>
+        </div>
+        <div id="memory-extraContent" class="extra content">
+            <span id="memory-attempts" class="right floated">0 attempt</span>
+            <span>
+                <i class="clock icon"></i>
+                <span id="memory-clock">00:00:00</span>
+            </span>
+        </div>
+    </div>
+</template>
+
+<template id="checkbox">
+    <div class="field">
+        <div class="ui checkbox">
+            <input type="radio" name="size">
+            <label></label>
+        </div>
+    </div>
+</template>
+
+<template id="image">
+    <a href="#">
+        <img src="assets/image/0.png" height="60" width="60">
+    </a>
+</template>

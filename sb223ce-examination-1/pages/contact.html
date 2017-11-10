@@ -1,0 +1,34 @@
+--- 
+layout: default
+title: Contact
+---
+
+<section>
+    <form method="POST" action="/someapi">
+        <fieldset>
+            <legend>Ask your question</legend>
+                <label>Type:</label>
+                <select name="selected_type">
+                    <option value="question" selected>Question</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <label>Name:</label>
+                <input type="text" name="name" />
+                
+                <label>Question:</label>
+                <textarea rows="10" name="question"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>How should I contact you?</legend>
+            <label>Phone:</label>
+            <input type="radio" name="contact_mode" value="phone">
+            
+            <label>E-mail:</label>
+            <input type="radio" name="contact_mode" value="email">
+        </fieldset>
+        
+        <input id="send_button" type="submit" value="Send">
+    </form>
+</section>

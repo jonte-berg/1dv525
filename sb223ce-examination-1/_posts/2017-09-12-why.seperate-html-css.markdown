@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Why is it important to seperate the layout and design (css) from content (html)?"
+date:   2017-09-12 12:33:39 +0200
+author: Sarpreet Singh
+---
+
+The most important reason of this sepration is *separation of concern* because *HTML* is a structure and *CSS* is a design. In addition, it also helps to build and maintain the project in an efficient way compare to embedded *CSS* which makes the project less understandable and may leads to buggy implementation.  

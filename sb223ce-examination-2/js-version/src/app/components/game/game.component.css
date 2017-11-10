@@ -1,0 +1,57 @@
+body {
+   background-image: url(https://cdn.dribbble.com/users/103573/screenshots/1674824/compass-d.gif);
+   padding: 12%;
+}
+
+#game-over {
+    margin-top: -5%;
+}
+
+header {
+    font-size: 3.5em;
+}
+
+.alternatives {
+   margin-top: -8.1%;
+}
+
+button {
+    font-size: 2em;
+    width: 40%;
+}
+
+.timer {
+    color: dodgerblue;
+    font-size: 5em;
+    margin-top: -10%;
+}
+
+#game {
+    margin-top: -30%;
+}
+
+#score {
+    font-size: 2em;
+    color: gold;
+}
+
+ol {
+    display: inline-table;
+    font-size: 2em;
+}
+
+#restart-btn {
+    font-size: 3.5em;
+}
+
+#game-over-header {
+    font-size: 6em;
+}
+
+#high-score {
+    color: mediumseagreen;
+}
+#high-score > h1 {
+    font-size: 2.5em;
+    margin: 0;
+}

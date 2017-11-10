@@ -1,0 +1,70 @@
+html, body {
+    font-family: sans-serif;
+    background-image: url("https://www.google.se/search?q=light+background&tbm=isch&imgil=pd5SPHeArCctRM%253A%253BrCYa_tHiuEfefM%253Bhttp%25253A%25252F%25252Fwallpaperswide.com%25252Flight_background-wallpapers.html&source=iu&pf=m&fir=pd5SPHeArCctRM%253A%252CrCYa_tHiuEfefM%252C_&usg=__6vIU5dE6nYsiPO4FpOZJAFxZAQs%3D&biw=1439&bih=722&ved=0ahUKEwjBluGJmZ3WAhVkMJoKHfxDAzAQyjcIMw&ei=3om2WcGvIuTg6AT8h42AAw#imgrc=pd5SPHeArCctRM");
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.header_ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightsteelblue;
+}
+
+.header_li {
+    float: left;
+    margin-left: 13%;
+}
+
+.header_a {
+    display: block;
+    color: #E22B3A;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.header_a:hover{
+    background-color: seashell;
+}
+
+.welcome {
+   text-align: center;
+   margin-top: 18%;
+}
+
+.main {
+    /* Devlopment Mode
+    background-image: url(/assets/img/welcome.jpg);
+    */
+
+    /* Production Mode */ 
+    background-image: url(/sb223ce-examination-1/assets/img/welcome.jpg);
+    background-repeat: no-repeat;
+    min-height: 450px;
+    width: 100%;
+}
+
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#aside_left {
+    float: left;
+    width: 15%;
+}
+
+#aside_right {
+    float: right;
+    width: 15%;
+}

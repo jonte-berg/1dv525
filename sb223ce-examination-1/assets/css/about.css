@@ -1,0 +1,12 @@
+.article {
+    text-align: center;
+}
+
+#image{
+    width: 40%;
+}
+
+#video {
+    width: 60%;
+    padding: 2%;
+}

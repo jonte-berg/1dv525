@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://usatsneakhype.files.wordpress.com/2015/03/awesome-trippy-gifs-3.gif);
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    transition: 0.5s;
+    overflow-y: scroll;
+    font-size: 1.8em;
+    color: white;
+    text-align: left;
+}
+
+.overlay-content {
+    position: relative;
+    top: 8%;
+    width: 100%;
+}
+
+.overlay-content > ul {
+    display: grid;
+}
+
+.overlay .close-button {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 30px;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.open-overlay {
+    height: 100%;
+}
+
+.error-message {
+    color: darkorange;
+    font-size: 2.5em;
+}

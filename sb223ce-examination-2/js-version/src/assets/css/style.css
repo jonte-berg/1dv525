@@ -1,0 +1,45 @@
+body {
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: monospace;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 10%;
+}
+
+header {
+    font-size: 6em;
+    color: lavenderblush;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+    text-align: center;
+}
+
+.is-hide {
+    visibility: hidden;
+}
+
+button {
+    cursor: pointer;
+    width: max-content;
+    font-size: 4em;
+    font-family: monospace;
+    margin: 1%;
+    padding: 1%;
+    background: white;
+}
+
+button:hover {
+    color: red;
+}
+
+input {
+    font-size: 1.5em;
+    padding: 1%;
+    margin: 2%;
+    text-align: center;
+}

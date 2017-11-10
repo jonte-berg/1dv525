@@ -1,0 +1,51 @@
+body {
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ui.menu { 
+    background: transparent; 
+}
+
+.ui.card { 
+    position: absolute;
+}
+
+.ui.dimmer {
+    margin-top: 20%;
+    height: 80%;
+}
+
+#header { 
+    background: ghostwhite; 
+}
+
+.ui.form textarea:not([rows]) {
+    height: 4em;
+    min-height: 1em;
+    max-height: 4em;
+}
+
+.chat-content-area {
+    overflow: auto;
+    height: 200px;
+}
+
+.news-content-area {
+    overflow: auto;
+    height: 32em;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.twoByTwo {
+    margin-right: 50px;
+    margin-left: 50px;
+}

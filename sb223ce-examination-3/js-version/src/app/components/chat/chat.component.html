@@ -1,0 +1,53 @@
+<template id='app'>
+    <div draggable='true' id='chat-app' class='ui card'>
+        <div id='header' class='content'>
+            <i aria-hidden="true" class='circular talk icon'></i>Chat
+            <i id='chat-close' aria-hidden="true" class='right floated circular close icon link'></i>
+            <i id='chat-settings' aria-hidden="true" class='right floated circular setting icon link'></i>
+        </div>
+        <div id='chat-content' class='content'>
+            <div id='chat-messagesDiv'>
+                <div id='chat-messagesList' class='ui comments chat-content-area'></div>
+                <form class='ui reply form'>
+                    <div class='field'>
+                        <textarea placeholder='Type a message...' id='chat-textarea'></textarea>
+                    </div>
+                </form>
+            </div>
+            <div id='chat-settingsDiv' class="ui dimmer">
+                <div class='ui fluid icon input'>
+                    <input id='chat-username' type='text' placeholder='Add a username'>
+                    <i class='user icon'></i>
+                </div>
+                <br />
+                <div class='ui fluid icon input'>
+                    <input id='chat-channel' type='text' placeholder='Add a channel'>
+                    <i class='rss icon'></i>
+                </div>
+                <br />
+                <div id='chat-doneBtn' class='ui bottom attached button'>Done</div>
+            </div>
+        </div>
+        <div id="chat-extraContent" class="ui dimmer extra content">
+            <div class="ui icon message">
+                <div class="content">Connection failed, invalid address.</div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template id='message'>
+    <div class='comment'>
+        <div class='content'>
+            <span class='author'></span>
+            <div class='metadata'>
+                <span class='date'></span>
+            </div>
+            <div class='text'></div>
+        </div>
+    </div>
+</template>
+
+<template id='sound'>
+    <audio id="audio" src='assets/sounds/b2.mp3'></audio>
+</template>

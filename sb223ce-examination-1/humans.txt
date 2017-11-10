@@ -1,0 +1,10 @@
+/* TEAM */
+Creator: Sarpreet Singh Buttar.
+Site: https://www.linkedin.com/in/sarpreet-singh-a23bb2131/
+Location: Vaxjo, Sweden.
+                
+/* SITE */
+Last update: 2017/09/11 
+Standards: HTML5, CSS3
+Language: English
+Software: Jekyll

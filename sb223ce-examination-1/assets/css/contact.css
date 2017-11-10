@@ -1,0 +1,33 @@
+label {
+    margin-left: 25%;
+}
+
+select {
+    width: 41%;
+    margin-left: 5%;
+}
+
+input {
+    width: 40%;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+textarea {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 40%;
+}
+
+fieldset {
+    margin-top: 3%;
+}
+
+form {
+    display: inline-block;
+    width: 100%;
+}
+
+#send_button {
+    margin-left: 30%;
+}

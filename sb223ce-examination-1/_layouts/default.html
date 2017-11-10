@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>{{page.title}}</title>
+
+     <!--- Development Mode
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    -->
+
+     <!--- Production Mode -->
+    <link rel="stylesheet" href="/sb223ce-examination-1/assets/css/main.css">
+    <link rel="stylesheet" href="/sb223ce-examination-1/assets/css/about.css">
+    <link rel="stylesheet" href="/sb223ce-examination-1/assets/css/contact.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Web Programming" />
+    <meta property="og:url" content="https://1dv525.github.io/sb223ce-examination-1/index.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://1dv525.github.io/sb223ce-examination-1/assets/img/sarpreet.jpeg" />
+
+    <link rel="author" href="humans.txt" />
+</head>
+
+<body>
+    <nav>
+        <ul class="header_ul">
+            
+            <!--- Development Mode
+            <li class="header_li"><a class="header_a" href="/index.html">Home</a></li>
+            <li class="header_li"><a class="header_a" href="/pages/blog.html">Blog</a></li>
+            <li class="header_li"><a class="header_a" href="/pages/about.html">About</a></li>
+            <li class="header_li"><a class="header_a" href="/pages/contact.html">Contact</a></li>
+            -->
+
+            <!--- Production Mode -->
+            <li class="header_li">
+                <a class="header_a" href="/sb223ce-examination-1/index.html">Home</a>
+            </li>
+            <li class="header_li">
+                <a class="header_a" href="/sb223ce-examination-1/pages/blog.html">Blog</a>
+            </li>
+            <li class="header_li">
+                <a class="header_a" href="/sb223ce-examination-1/pages/about.html">About</a>
+            </li>
+            <li class="header_li">
+                <a class="header_a" href="/sb223ce-examination-1/pages/contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <aside id="aside_left"></aside>
+    
+    <main>{{content}}</main>
+    
+    <aside id="aside_right"></aside>
+</body>
+
+</html>
